@@ -1,0 +1,56 @@
+{
+    "name": "FlappyBirdInputs",
+    "maps": [
+        {
+            "name": "Flappy Bird",
+            "id": "e4a533a1-98e6-4064-839a-f6e9bd2b18d1",
+            "actions": [
+                {
+                    "name": "Flap",
+                    "type": "Button",
+                    "id": "c3ccdb7b-dec7-4224-a49c-70b4acbdf27c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0c1fac7b-3605-4ca8-aab2-b0388c753a4a",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Flap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e4856519-a461-4b0a-80cd-a1785591d24d",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Flap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "faa3eccb-90a0-4478-a756-340bba351229",
+                    "path": "<Touchscreen>/primaryTouch/tap",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Flap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
